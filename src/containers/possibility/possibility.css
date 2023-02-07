@@ -62,3 +62,10 @@
     margin-top: 2rem;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .gpt3__possibility-image img {
+    object-fit: cover;
+    width: 390px;
+  }
+}
