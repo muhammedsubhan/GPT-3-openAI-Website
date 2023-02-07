@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 
 import {
@@ -13,11 +13,17 @@ import {
 import { CTA, Brand, Navbar } from "./components";
 
 function App() {
+  const [data, setData] = useState(false);
+
+  const datastate = () => {
+    setData(true);
+  };
+
   return (
     <>
-      <div className="App">
+      <div className={`App ${data ? "active" : null}`}>
         <div className="gradient__bg">
-          <Navbar />
+          <Navbar set={datastate} />
           <Header />
         </div>
         <Brand />

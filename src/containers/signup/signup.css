@@ -1,0 +1,109 @@
+.gpt3__form {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--color-footer);
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  z-index: 999;
+}
+
+.gpt3__form .gpt3__close {
+  margin-left: 25rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.gpt3__form-heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gpt3__form-heading h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.gpt3__form-heading small {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.gpt3__form-content {
+  width: 100%;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gpt3__form-content div input {
+  flex: 2;
+  width: 100%;
+  min-height: 50px;
+  min-width: 350px;
+  background: var(--color-footer);
+  border: 2px solid var(--color-blog);
+  font-family: var(--font-family);
+  font-size: 20px;
+  line-height: 27px;
+  color: #fff;
+  padding: 0 1rem;
+  outline: none;
+  border-radius: 15.3407px;
+}
+
+.gpt3__form-content div {
+  margin: 1rem 0;
+}
+
+.gpt3__form-content h4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 15px;
+  height: 45.51px;
+  cursor: pointer;
+
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+
+  text-align: center;
+}
+
+.gpt3__form-content .gpt3__signup-already {
+  margin: 1rem 0;
+}
+
+.gpt3__form-content .gpt3__signup-already {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #fff;
+}
+
+.gpt3__form-content .gpt3__signup-already span:hover {
+  border-bottom: 2px solid white;
+  cursor: pointer;
+}

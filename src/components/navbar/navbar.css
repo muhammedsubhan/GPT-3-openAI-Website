@@ -126,3 +126,24 @@
     display: block;
   }
 }
+
+/* Sign Up Page CSS */
+
+.gpt3__navbar-signup {
+  top: 130px;
+  right: 490px;
+  z-index: 999;
+  position: fixed;
+}
+
+@media screen and (max-width: 1150px) {
+  .gpt3__navbar-signup {
+    left: 280px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gpt3__navbar-signup {
+    left: 140px;
+  }
+}
