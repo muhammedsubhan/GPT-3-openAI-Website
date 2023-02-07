@@ -85,7 +85,14 @@ const Navbar = ({ set }) => {
                 </p>
                 <div className="gpt3__navbar-menu_container-links-sign">
                   <p>Sign in</p>
-                  <button type="button">Sign up</button>
+                  <button type="button" onClick={signUpHandle}>
+                    Sign up
+                  </button>
+                  <div className="gpt3__navbar-signup">
+                    {signUpToggle && (
+                      <SignUp setToggleSignUp={setSignUpToggle} />
+                    )}
+                  </div>
                 </div>
               </div>
             </div>

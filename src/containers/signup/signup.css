@@ -77,16 +77,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   border-radius: 15px;
   height: 45.51px;
   cursor: pointer;
-
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 30px;
   line-height: 44px;
-
   text-align: center;
 }
 
@@ -106,4 +103,21 @@
 .gpt3__form-content .gpt3__signup-already span:hover {
   border-bottom: 2px solid white;
   cursor: pointer;
+}
+
+/* media queries */
+
+@media screen and (max-width: 550px) {
+  .gpt3__form {
+    width: 450px;
+    height: 500px;
+  }
+
+  .gpt3__form .gpt3__close {
+    margin-right: 3rem;
+  }
+
+  .gpt3__form-heading small {
+    font-size: 16px;
+  }
 }

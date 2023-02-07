@@ -139,11 +139,21 @@
 @media screen and (max-width: 1150px) {
   .gpt3__navbar-signup {
     left: 280px;
+    position: fixed;
   }
 }
 
 @media screen and (max-width: 768px) {
   .gpt3__navbar-signup {
     left: 140px;
+    position: fixed;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3__navbar-signup {
+    top: -40px;
+    left: -230px;
+    position: fixed;
   }
 }
