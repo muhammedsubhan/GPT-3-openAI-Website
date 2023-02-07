@@ -153,7 +153,15 @@
 @media screen and (max-width: 550px) {
   .gpt3__navbar-signup {
     top: -40px;
-    left: -140px;
+    left: -120px;
+    position: fixed;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .gpt3__navbar-signup {
+    top: -40px;
+    left: -50px;
     position: fixed;
   }
 }
